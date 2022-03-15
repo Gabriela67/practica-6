@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica6</title>
+    <style>
+        .header{
+            width: 75%;
+            height: 100px;
+            background-color:rgb(88, 88, 197);
+            border-radius: 5px;
+            box-shadow: 7px 3px 3px rgb(133, 124, 124);
+            color: aliceblue;
+            font-size: 45px;
+        }
+        .container{
+            display: flex;
+            
+        }
+        .main{
+            width: 50%;
+            height: 300px;
+            background-color: rgb(63, 134, 63);
+            border-radius: 5px;
+            box-shadow: 7px 3px 3px rgb(133, 124, 124);
+            margin: 15px 15px 15px 0;
+            padding: 0 0 0 20px;
+            display: flex;
+            
+            
+        }
+        .item{
+            width: 125px;
+            height: 70px;
+            background-color: rgb(65, 121, 65);
+            margin: 15px;
+            border-radius: 7px;
+            box-shadow: 7px 5px 5px rgb(50, 70, 50);
+            margin: 15px 15px 15px 0;
+            color: aliceblue;
+            font-size: 30px;
+            justify-content: space-between;
+            text-align: center;
+           
+        }
+        .item:hover{
+            background-color:rgb(23, 49, 23);
+        }
+        .item:active{
+            background-color:bisque;
+            color: black;
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .sidebar{
+            width: 23%;
+            height: 300px;
+            background-color: red;
+            border-radius: 5px;
+            box-shadow: 7px 3px 3px rgb(133, 124, 124);
+            margin: 15px 0 15px 0;
+            color: aliceblue;
+            font-size: 45px;
+        }
+        .sidebar:hover{
+            background-color: grey;
+            color: black;
+        }
+        .footer{
+            width: 75%;
+            height: 100px;
+            background-color:rgb(88, 88, 197);
+            border-radius: 5px;
+            box-shadow: 7px 3px 3px rgb(133, 124, 124);
+            color: aliceblue;
+            font-size: 45px;
+
+
+        }
+       .fila1{
+           display: flex;
+           flex-direction: column;
+          
+       }
+       .fila2{
+        display: flex;
+           flex-direction: column;
+          
+       } 
+       .fila3{
+        display: flex;
+           flex-direction: column;
+       }
+     
+       .fila4{
+        display: flex;
+           flex-direction: column;
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="header">Header</div>
+    <div class="container">
+    <div class="main">
+        <br>
+        <br>
+        
+         <div class="fila1">
+             <div class="item">item</div>
+             <div class="item">item</div>
+             <div class="item">item</div>
+            
+         </div>
+         <div class="fila2">
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            
+        </div>
+        <div class="fila3">
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            
+        </div>
+        <div class="fila4">
+            <div class="item">item</div>
+            <div class="item">item</div>
+        </div>
+       
+     
+     
+    </div>
+    <div class="sidebar">sidebar</div>
+</div>
+<div class="footer">footer
+</div>
+</body>
+</html>
